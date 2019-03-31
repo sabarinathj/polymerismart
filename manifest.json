@@ -1,0 +1,6 @@
+{
+  "name": "polymerismart",
+  "short_name": "polymerismart",
+  "start_url": "/",
+  "display": "standalone"
+}

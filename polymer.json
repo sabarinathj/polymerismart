@@ -1,0 +1,26 @@
+{
+	"entrypoint": "index.html",
+	"shell": "src/polymerismart-app/polymerismart-app.js",
+	"sources": [
+		"src/*/*.*",
+		"package.json"
+	],
+	"extraDependencies": [
+		"manifest.json",
+		"node_modules/@webcomponents/webcomponentsjs/**",
+		"node_modules/web-animations-js/web-animations-next-lite.min.js"
+	],	
+	"npm": true,
+	"builds": [
+		{ 
+			"name": "es6prod",
+			"preset": "es6-unbundled"
+		}
+	],
+	"addServiceWorker": true,
+	"lint": {
+		"rules": [
+			"polymer-3"
+		]
+	}
+}
